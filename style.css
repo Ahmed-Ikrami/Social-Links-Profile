@@ -66,3 +66,12 @@ p {
 .links a:last-child {
     margin-bottom: 0;
 }
+.links a:hover {
+    background-color: var(--hover-color);
+    color: var(--btn-color);
+}
+@media (max-width: 767px) {
+    .container {
+        margin: 50px 30px;
+    }
+}
